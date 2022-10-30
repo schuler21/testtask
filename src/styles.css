@@ -1,0 +1,192 @@
+﻿body {
+    font: 15px "Century Gothic", Futura, sans-serif;
+    margin: 40px;
+}
+
+.div_button {
+    float: right;
+}
+
+.label_required:after {
+    content: "*";
+    color: #FA8072;
+}
+
+button {
+    margin: 19px;
+    background-color: #E4F3F2;
+    padding: 3px;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+}
+
+button:hover {
+    background-color: #F6F8FA;
+    border: 1px solid #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+input:focus {
+    border: 1px solid #FA8072;
+}
+
+.label_margin {
+    display: flex;
+    width: 130pt;
+    min-width: 130pt;
+    max-width: 150pt;
+}
+
+.text_field_start {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 9pt;
+}
+
+.text_field_end {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:flex-end;
+}
+/* стили для label */
+.text_field__div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.45rem;
+}
+/* стили для input */
+.input_number_and_date {
+    margin-left: 5pt;
+    height: calc(0.95rem + 2px);
+    padding: 0.275rem 0.55rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+}
+
+.input_number_and_date_req {
+    margin-left: 5pt;
+    height: calc(0.95rem + 2px);
+    padding: 0.275rem 0.55rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    background-color: #FFFFE0;  
+}
+
+.input_number_and_date_req.invalid {
+    border: 1px solid #FA8072;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(250, 128, 114, 0.25);
+}
+
+.input {
+    margin-left:5pt;
+    display: block;
+    width: 100%;
+    height: calc(0.95rem + 2px);
+    padding: 0.275rem 0.55rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+}
+
+.input:focus, .input_number_and_date:focus ,.input_number_and_date_req:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.fixTableHead {
+    overflow-y: hidden;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.fixTableHead thead th {
+    position: sticky;
+    top: 0px;
+}
+
+.table_transfer {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid #bdbdbd;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+.border_table {
+    border: 1px solid #bdbdbd;
+    width: 100%;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.table_transfer th:first-child, .table_transfer td:first-child {
+    background: #F6F8FA;
+    text-align: center;
+}
+
+thead th:nth-child(1) {
+    width: 3%;
+}
+
+thead th:nth-child(2) {
+    width: 15%;
+}
+
+thead th:nth-child(3) {
+    width: 22%;
+}
+
+thead th:nth-child(4) {
+    width: 30%;
+}
+
+thead th:nth-child(5) {
+    width: 30%;
+}
+
+.table_transfer th {
+    font-weight: normal;
+    padding: 5px 5px;
+    text-align: left;
+    background: #F6F8FA;
+    border: 1px solid #bdbdbd;
+}
+
+.table_transfer td {
+    padding: 3px 6px;
+    background: #E4F3F2;
+    text-align: right;
+    border: 1px solid #bdbdbd;
+}
+
