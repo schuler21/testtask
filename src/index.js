@@ -13,7 +13,10 @@ function FirstRow(props) {
              <label className="label_required">
                  Дата:
              </label>
-             <input name='date' type='date' className={`input_number_and_date_req${props.date_isEmpty?" invalid":""}`} onChange={props.onChange}/> {/*#FFFFE0*/}
+             <input name='date' 
+                type='date' 
+                className={`input_number_and_date_req${props.date_isEmpty?" invalid":""}`} 
+                onChange={props.onChange}/> 
              </div>
          <div className="text_field_end">
              <label>
@@ -228,7 +231,3 @@ root.render(
     <Form />
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-//reportWebVitals();
